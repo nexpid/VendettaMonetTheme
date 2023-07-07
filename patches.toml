@@ -8,8 +8,10 @@
 # 3. hex code — #HEX
 
 [replacers]
-PRIMARY = "N1_500"
-BRAND = "A1_500"
+PRIMARY = "A1_750"
+BRAND = "A1_600"
+WHITE = "A1_90"
+RED = "#a11c17"
 
 [semantic]
 
