@@ -5,11 +5,259 @@
 #                A2_SHADE (accent 2)
 #                A3_SHADE (accent 3)
 # 2. discord raw color group — BRAND_SHADE
-# 3. hex code — #HEX
+# 3. hex code — #HEX (RRGGBBAA)
 
 [replacers]
 BRAND = "N1_500"
 
 [semantic]
+        "ACTIVITY_CARD_BACKGROUND" = ["#fb4934"]
+        "BACKGROUND_FLOATING": [
+            "A1_800"
+        ],
+        "BACKGROUND_MENTIONED": [
+            "A1_8005a"
+        ],
+        "BACKGROUND_MENTIONED_HOVER": [
+            "A1_8005a"
+        ],
+        "BACKGROUND_MESSAGE_HOVER": [
+            "A1_8005a"
+        ],
+        "BACKGROUND_MOBILE_PRIMARY": [
+            "A1_900"
+        ],
+        "BACKGROUND_MOBILE_SECONDARY": [
+            "A2_900"
+        ],
+        "BACKGROUND_ACCENT": [
+            "A3_600"
+        ],
+        "BACKGROUND_MODIFIER_ACCENT": [
+            "A3_5009a"
+        ],
+        "BACKGROUND_MODIFIER_ACTIVE": [
+            "A1_500"
+        ],
+        "BACKGROUND_MODIFIER_HOVER": [
+            "A1_8005a"
+        ],
+        "BACKGROUND_MODIFIER_SELECTED": [
+            "A3_5006a"
+        ],
+        "BACKGROUND_NESTED_FLOATING": [
+            "A1_900"
+        ],
+        "BACKGROUND_PRIMARY": [
+            "A1_900"
+        ],
+        "BACKGROUND_SECONDARY": [
+            "A2_800"
+        ],
+        "BACKGROUND_SECONDARY_ALT": [
+            "A2_900"
+        ],
+        "BACKGROUND_TERTIARY": [
+            "A2_900"
+        ],
+        "CHANNELS_DEFAULT": [
+            "A2_500"
+        ],
+        "CHANNEL_ICON": [
+            "A1_500"
+        ],
+        "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
+            "A1_100"
+        ],
+        "CHANNELTEXTAREA_BACKGROUND": [
+            "#111214"
+        ],
+        "CHAT_BACKGROUND": [
+            "A1_900"
+        ],
+        "CHAT_BORDER": [
+            "A2_900"
+        ],
+        "DEPRECATED_CARD_BG": [
+            "A1_60040"
+        ],
+        "DEPRECATED_CARD_EDITABLE_BG": [
+            "A1_6004d"
+        ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_BACKGROUND": [
+            "A1_600"
+        ],
+        "DEPRECATED_QUICKSWITCHER_INPUT_PLACEHOLDER": [
+            "A1_600"
+        ],
+        "DEPRECATED_STORE_BG": [
+            "A1_50"
+        ],
+        "DEPRECATED_TEXT_INPUT_BG": [
+            "A1_600"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER": [
+            "A1_9004d"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_DISABLED": [
+            "A1_600"
+        ],
+        "DEPRECATED_TEXT_INPUT_BORDER_HOVER": [
+            "#020202"
+        ],
+        "DEPRECATED_TEXT_INPUT_PREFIX": [
+            "A1_600"
+        ],
+        "DISPLAY_BANNER_OVERFLOW_BACKGROUND": [
+            "A1_80080"
+        ],
+        "ELEVATION_HIGH": [
+            "A1_600"
+        ],
+        "ELEVATION_LOW": [
+            "A1_600"
+        ],
+        "ELEVATION_MEDIUM": [
+            "A1_600"
+        ],
+        "ELEVATION_STROKE": [
+            "A1_600"
+        ],
+        "FOCUS_PRIMARY": [
+            "A1_600"
+        ],
+        "FORUM_POST_EXTRA_MEDIA_COUNT_CONTAINER_BACKGROUND": [
+            "A2_900cc"
+        ],
+        "FORUM_POST_TAG_BACKGROUND": [
+            "A2_900e6"
+        ],
+        "GUILD_HEADER_TEXT_SHADOW": [
+            "A1_600"
+        ],
+        "HEADER_PRIMARY": [
+            "A1_50"
+        ],
+        "HEADER_SECONDARY": [
+            "A1_400"
+        ],
+        "INFO_DANGER_BACKGROUND": [
+            "A1_600"
+        ],
+        "INFO_DANGER_FOREGROUND": [
+            "A1_500"
+        ],
+        "INFO_DANGER_TEXT": [
+            "#fb4934"
+        ],
+        "INFO_HELP_BACKGROUND": [
+            "A1_600"
+        ],
+        "INFO_HELP_FOREGROUND": [
+            "A2_900"
+        ],
+        "INFO_HELP_TEXT": [
+            "A1_50"
+        ],
+        "INFO_POSITIVE_BACKGROUND": [
+            "A1_600"
+        ],
+        "INFO_POSITIVE_FOREGROUND": [
+            "A2_900"
+        ],
+        "INFO_POSITIVE_TEXT": [
+            "A1_50"
+        ],
+        "INFO_WARNING_BACKGROUND": [
+            "A1_600"
+        ],
+        "INFO_WARNING_FOREGROUND": [
+            "A1_900"
+        ],
+        "INFO_WARNING_TEXT": [
+            "A1_50"
+        ],
+        "INTERACTIVE_ACTIVE": [
+            "A1_50"
+        ],
+        "INTERACTIVE_HOVER": [
+            "#bac2de"
+        ],
+        "INTERACTIVE_MUTED": [
+            "A2_500"
+        ],
+        "INTERACTIVE_NORMAL": [
+            "A1_100"
+        ],
+        "LOGO_PRIMARY": [
+            "#83a598"
+        ],
+        "MODAL_FOOTER_BACKGROUND": [
+            "A2_900"
+        ],
+        "REDESIGN_ACTIVITY_CARD_BACKGROUND": [
+            "A2_900"
+        ],
+        "SCROLLBAR_AUTO_THUMB": [
+            "A1_8005a"
+        ],
+        "SCROLLBAR_AUTO_TRACK": [
+            "A2_900"
+        ],
+        "SCROLLBAR_THIN_THUMB": [
+            "A1_8005a"
+        ],
+        "SCROLLBAR_THIN_TRACK": [
+            "A1_90000"
+        ],
+        "SPOILER_REVEALED_BACKGROUND": [
+            "A2_900"
+        ],
+        "STATUS_DANGER_BACKGROUND": [
+            "#fb4934"
+        ],
+        "STATUS_DANGER_TEXT": [
+            "#83a598"
+        ],
+        "STATUS_POSITIVE_BACKGROUND": [
+            "A1_600"
+        ],
+        "STATUS_POSITIVE_TEXT": [
+            "A1_50"
+        ],
+        "STATUS_WARNING_BACKGROUND": [
+            "A1_100"
+        ],
+        "STATUS_WARNING_TEXT": [
+            "A1_900"
+        ],
+        "TEXTBOX_MARKDOWN_SYNTAX": [
+            "A1_100"
+        ],
+        "TEXT_DANGER": [
+            "#fb4934"
+        ],
+        "TEXT_LINK": [
+            "#b4befe"
+        ],
+        "TEXT_LINK_LOW_SATURATION": [
+            "A1_50"
+        ],
+        "TEXT_MUTED": [
+            "A1_200"
+        ],
+        "TEXT_NORMAL": [
+            "A1_50"
+        ],
+        "TEXT_POSITIVE": [
+            "A1_600"
+        ],
+        "TEXT_WARNING": [
+            "#fb4934"
+        ],
+        "USER_PROFILE_HEADER_OVERFLOW_BACKGROUND": [
+            "A1_80080"
+        ]
+
 
 [raw]
