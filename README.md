@@ -7,7 +7,7 @@ Includes the `patches.toml` file the Vendetta [MonetTheme](https://github.com/Ga
 ## Help us make this theme better by [creating an issue](https://github.com/Gabe616/VendettaPlugins/issues/new) or [making a pull request](https://github.com/Gabe616/VendettaPlugins/compare)!
 
 > **@taki_shiwa**  
-> Helped with the theme (suggestions)
+> Helped maintaining the theme
 
 > **@cynthia**  
 > Helped with the theme (suggestions)
