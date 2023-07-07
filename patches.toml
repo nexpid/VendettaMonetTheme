@@ -8,7 +8,8 @@
 # 3. hex code — #HEX
 
 [replacers]
-BRAND = "N1_500"
+PRIMARY = "N1_500"
+BRAND = "A1_500"
 
 [semantic]
 
