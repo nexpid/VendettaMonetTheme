@@ -7,12 +7,10 @@
 # 2. discord raw color group — BRAND_SHADE
 # 3. hex code — #HEX
 
-[replacers]
-PRIMARY = "A1_750"
-BRAND = "A1_600"
-WHITE = "A1_90"
-RED = "#a11c17"
-
-[semantic]
-
-[raw]
+replacers:
+  PRIMARY: "A1_750"
+  BRAND: "A1_600"
+  WHITE: "A1_90"
+  RED: "#a11c17"
+semantic:
+raw:
