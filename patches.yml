@@ -12,5 +12,5 @@ replacers:
   BRAND: "A1_600"
   WHITE: "A1_90"
   RED: "#a11c17"
-semantic:
-raw:
+semantic: {}
+raw: {}
