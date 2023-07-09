@@ -1,6 +1,6 @@
 # 🎨 Vendetta Monet Theme
 
-Includes the `patches.toml` file the Vendetta [MonetTheme](https://github.com/Gabe616/VendettaPlugins/tree/main/plugins/monet-theme) plugin uses
+Includes the `patches.json` file the Vendetta [MonetTheme](https://github.com/Gabe616/VendettaPlugins/tree/main/plugins/monet-theme) plugin uses
 
 # 🛠 Contributors
 
