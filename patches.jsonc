@@ -8,11 +8,14 @@
 // 3. hex code — #HEX
 {
   "replacers": {
-    "PRIMARY": "A1_750",
-    "BRAND": "A1_600",
-    "WHITE": "A1_90",
-    "RED": "#a11c17"
+    // for replacers, the second argument is the color multiplier
+    // you can also add conditions seperated by _
+    "PRIMARY_>=500": ["N1_880", 1.2],
+    "BRAND": ["A1_350", 1],
+    "RED": ["#a12829", 1]
   },
-  "semantic": {},
+  "semantic": {
+    "BACKGROUND_ACCENT": "N1_650"
+  },
   "raw": {}
 }
