@@ -7,27 +7,37 @@
 // 2. discord raw color group — BRAND_SHADE
 // 3. hex code — #HEX
 {
-  "version": 2,
+  "version": 3,
   "replacers": {
     "dark": {
-      "PRIMARY_>=500": ["N1_880", 1.2],
-      "RED": ["#a12829", 1]
+      "PRIMARY_>500": {
+        "color": "N1_800",
+        "multiplier": 2,
+        "base": 350
+      },
+      "RED": {
+        "color": "#a12829"
+      }
     },
     "light": {
-      "PRIMARY<500": ["N1_800", 0.5],
-      "RED": ["#ff4f51", 1]
+      "PRIMARY_<=500": {
+        "color": "N1_20"
+      },
+      "RED": {
+        "color": "#ff4f51"
+      }
     },
     "both": {
-      "BRAND": ["A1_350", 1]
+      "BRAND": {
+        "color": "A1_350"
+      }
     }
   },
   "semantic": {
     "dark": {
       "BACKGROUND_ACCENT": "N1_650"
     },
-    "light": {
-      "BACKGROUND_ACCENT": "N1_80"
-    },
+    "light": {},
     "both": {}
   },
   "raw": {
