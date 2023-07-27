@@ -30,6 +30,9 @@
     "both": {
       "BRAND": {
         "color": "A1_350"
+      },
+      "BLUE": {
+        "color": "A1_350"
       }
     }
   },
