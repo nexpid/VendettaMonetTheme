@@ -47,5 +47,20 @@
     "dark": {},
     "light": {},
     "both": {}
+  },
+  "plus": {
+    "unreadBadgeColor": {
+      "both": "A1_350"
+    },
+    "icons": {
+      "dark": {},
+      "light": {},
+      "both": {
+        "ic_radio_square_checked_24px": "A1_350",
+        "ic_selection_checked_24px": "A1_350",
+        "ic_check": "A1_350",
+        "ic_radio_circle_checked": "A1_350"
+      }
+    }
   }
 }
