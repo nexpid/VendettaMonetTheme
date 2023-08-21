@@ -1,10 +1,10 @@
 # 🎨 Vendetta Monet Theme
 
-Includes the `patches.jsonc` file the Vendetta [MonetTheme](https://github.com/Gabe616/VendettaPlugins/tree/main/plugins/monet-theme) plugin uses
+Includes the `patches.jsonc` file the Vendetta [MonetTheme](https://github.com/nexpid/VendettaPlugins/tree/main/plugins/monet-theme) plugin uses
 
 # 🛠 Contributors
 
-## Help us make this theme better by [creating an issue](https://github.com/Gabe616/VendettaPlugins/issues/new) or [making a pull request](https://github.com/Gabe616/VendettaPlugins/compare)!
+## Help us make this theme better by [creating an issue](https://github.com/nexpid/VendettaPlugins/issues/new) or [making a pull request](https://github.com/nexpid/VendettaPlugins/compare)!
 
 > **@taki_shiwa**  
 > Helped maintaining the theme
