@@ -11,36 +11,56 @@
   "replacers": {
     "dark": {
       "PRIMARY_>500": {
-        "color": "N1_800",
-        "multiplier": 2,
-        "base": 350
+        "color": "N1_600",
+        "multiplier": 1.25,
+        "base": 100
       },
       "RED": {
-        "color": "#a12829"
+        "color": "#ffb4ab",
+        "base": 200
+      },
+      "BRAND": {
+        "color": "A1_800",
+        "base": 400
+      },
+      "BLUE": {
+        "color": "A1_800",
+        "base": 400
       }
     },
     "light": {
-      "PRIMARY_<=500": {
-        "color": "N1_20"
+      "PRIMARY_<400": {
+        "color": "N1_980",
+        "multiplier": 1.25,
+        "base": 400
+      },
+      "WHITE": {
+        "color": "N1_980",
+        "multiplier": 1.25,
+        "base": 550
       },
       "RED": {
-        "color": "#ff4f51"
-      }
-    },
-    "both": {
+        "color": "#ba1a1a",
+        "base": 600
+      },
       "BRAND": {
-        "color": "A1_350"
+        "color": "A1_400",
+        "base": 600
       },
       "BLUE": {
-        "color": "A1_350"
+        "color": "A1_400",
+        "base": 600
       }
-    }
+    },
+    "both": {}
   },
   "semantic": {
     "dark": {
-      "BACKGROUND_ACCENT": "N1_650"
+      "BACKGROUND_ACCENT": "N1_400"
     },
-    "light": {},
+    "light": {
+      "BACKGROUND_ACCENT": "N1_980"
+    },
     "both": {}
   },
   "raw": {
