@@ -12,7 +12,7 @@
     "dark": {
       "PRIMARY_>500": {
         "color": "N1_600",
-        "multiplier": 1.25,
+        "multiplier": 1.05,
         "base": 100
       },
       "RED": {
@@ -31,12 +31,12 @@
     "light": {
       "PRIMARY_<400": {
         "color": "N1_980",
-        "multiplier": 1.25,
+        "multiplier": 1.05,
         "base": 400
       },
       "WHITE": {
         "color": "N1_980",
-        "multiplier": 1.25,
+        "multiplier": 1.05,
         "base": 550
       },
       "RED": {
