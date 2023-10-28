@@ -1,19 +1,17 @@
-// each value can either be:
-// 1. MY colors — N1_SHADE (neutral 1)
-//                N2_SHADE (neutral 2)
-//                A1_SHADE (accent 1)
-//                A2_SHADE (accent 2)
-//                A3_SHADE (accent 3)
-// 2. discord raw color group — BRAND_SHADE
-// 3. hex code — #HEX
 {
   "version": 3,
   "replacers": {
     "dark": {
-      "PRIMARY_>500": {
+      "PRIMARY": {
         "color": "N1_600",
         "multiplier": 1.05,
-        "base": 100
+        "base": 200
+      },
+      "PLUM": {
+        "color": "N1_600",
+        "multiplier": 1.05,
+        "base": 250,
+        "alternative": true
       },
       "RED": {
         "color": "#ffb4ab",
@@ -29,15 +27,20 @@
       }
     },
     "light": {
-      "PRIMARY_<400": {
-        "color": "N1_980",
-        "multiplier": 1.05,
-        "base": 400
+      "PRIMARY": {
+        "color": "N1_600",
+        "multiplier": 1,
+        "base": 300
+      },
+      "PLUM": {
+        "color": "N1_600",
+        "multiplier": 1,
+        "base": 300,
+        "alternative": true
       },
       "WHITE": {
-        "color": "N1_980",
-        "multiplier": 1.05,
-        "base": 550
+        "color": "N1_800",
+        "base": 600
       },
       "RED": {
         "color": "#ba1a1a",
@@ -55,12 +58,8 @@
     "both": {}
   },
   "semantic": {
-    "dark": {
-      "BACKGROUND_ACCENT": "N1_400"
-    },
-    "light": {
-      "BACKGROUND_ACCENT": "N1_980"
-    },
+    "dark": {},
+    "light": {},
     "both": {}
   },
   "raw": {
