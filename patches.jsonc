@@ -68,12 +68,6 @@
     "both": {}
   },
   "plus": {
-    "unreadBadgeColor": {
-      "both": "A1_350"
-    },
-    "mentionLineColor": {
-      "both": "A1_450"
-    },
     "icons": {
       "dark": {},
       "light": {},
