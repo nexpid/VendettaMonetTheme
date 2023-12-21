@@ -4,13 +4,13 @@
     "dark": {
       "PRIMARY": {
         "color": "N1_600",
-        "multiplier": 1.05,
-        "base": 200
+        "multiplier": 1.06,
+        "base": 280
       },
       "PLUM": {
         "color": "N1_600",
-        "multiplier": 1.05,
-        "base": 250,
+        "multiplier": 1.06,
+        "base": 280,
         "alternative": true
       },
       "RED": {
@@ -28,14 +28,14 @@
     },
     "light": {
       "PRIMARY": {
-        "color": "N1_600",
-        "multiplier": 1,
-        "base": 300
+        "color": "N1_700",
+        "multiplier": 1.03,
+        "base": 350
       },
       "PLUM": {
-        "color": "N1_600",
-        "multiplier": 1,
-        "base": 300,
+        "color": "N1_700",
+        "multiplier": 1.03,
+        "base": 350,
         "alternative": true
       },
       "WHITE": {
