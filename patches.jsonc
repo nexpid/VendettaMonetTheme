@@ -4,13 +4,13 @@
     "dark": {
       "PRIMARY": {
         "color": "N1_600",
-        "multiplier": 1.06,
-        "base": 280
+        "multiplier": 1.05,
+        "base": 275
       },
       "PLUM": {
         "color": "N1_600",
-        "multiplier": 1.06,
-        "base": 280,
+        "multiplier": 1.05,
+        "base": 275,
         "alternative": true
       },
       "RED": {
